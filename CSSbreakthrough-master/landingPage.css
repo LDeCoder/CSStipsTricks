@@ -1,0 +1,48 @@
+#LOGO {
+    color: grey;
+    position: absolute;
+    z-index: 4;
+    margin-left: 58%;
+    margin-right: 50%;
+    top: 250px;
+}
+
+body{
+    background-color: rgb(203, 199, 199);
+}
+
+.box1 {
+    background: rgb(112, 116, 113);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 50%;
+    margin-right: 50%;
+    top: 200px;
+    transform: rotate(45deg);
+}
+
+.box2 {
+    background: greenyellow;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 50%;
+    margin-right: 50%;
+    top: 200px;
+    transform: rotate(48deg);
+}
+
+.box3 {
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 3;
+    margin-left: 50%;
+    margin-right: 50%;
+    top: 200px;
+    transform: rotate(51deg);
+}
